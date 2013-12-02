@@ -1,0 +1,117 @@
+/* CSS Document */
+
+/*main content*/
+#wrapper {
+	background:
+		url("../images/pattern_134.gif") repeat-x center top;
+	width: 1020px;
+	padding: 2px;
+	margin: 0 auto;
+	box-shadow: 3px 7px 7px 7px #CCCCCC;
+	border-radius: 5px;}
+
+body {
+	background-color: rgba(0,0,0,1); 
+	color: rgba(255,255,255,1);
+	font: 1.000em Calibri, Helvetica, sans-serif;}
+
+/*headings*/	
+h1 {
+	height: 40px;
+	text-align: center;}	
+
+h2 {
+	height: 27px;}
+
+h3 {
+	height: 23px;}
+
+h1, h2, h3 {
+	background-color: rgba(171,233,255,1);
+	color: rgba(102,102,102,1);
+	padding: 0px 0px 0px 5px;
+	font-family: 'Arapey', serif;}
+	
+h4 {
+	font-weight:bold;}
+	
+	
+/*everything in column 1*/	
+#column1 {
+	float: left;
+	width: 588px;
+	padding: 2px;
+	margin: 7px;}
+	
+nav {
+	display: table;
+	background-color: rgba(214,214,214,1);}
+
+nav ul {
+	display: table-row;
+	height: 20px;
+	border: groove;}
+
+nav ul li {
+	display: table-cell;
+	margin: 20px 5px;
+	padding: 0px 20px}
+	
+nav ul li:first-child {
+	text-align: right;}
+
+nav ul li:last-child {
+	text-align: left;}
+	
+.jobdescription {
+	font-size:.75em;}
+	
+.jobdescription:hover {
+	font-style:italic;
+	font-size: 1em;}
+	
+/*everything in column 2*/	
+#column2 {
+	float: left;
+	width: 388px;
+	padding: 2px;
+	margin: 7px;}
+	
+p a[href] {
+	color: rgba(255,255,255,1);}
+	
+p a[href^="http://"] {
+	text-decoration:none;
+	font-style:italic;}
+	
+#largeh3 {
+	height: 73px;}
+	
+form {
+	border: ridge;
+	width: 346px;
+	margin: 2px auto;
+	padding: 2px;
+	text-align: left;}
+	
+input {
+	background-color: #CFF;
+	color: #000;}
+	
+input:hover {
+	background-color: #66F;}
+	
+input:focus {
+	background-color: #FFC}
+	
+textarea {
+	font-size: small;}
+
+/*footer*/	
+footer {
+	margin: 30px;
+	clear: both;
+	display: block;}
+	
+footer p {
+	text-align: center;}
