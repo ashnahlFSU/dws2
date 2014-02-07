@@ -20,7 +20,7 @@ h1 {
 	height: 40px;
 	text-align: center;}	
 
-h2 {
+h1 + h2 {
 	height: 27px;}
 
 h3 {
@@ -35,19 +35,11 @@ h1, h2, h3 {
 h4 {
 	font-weight:bold;}
 	
-	
-/*everything in column 1*/	
-#column1 {
-	float: left;
-	width: 588px;
-	padding: 2px;
-	margin: 7px;}
-	
 nav {
 	display: table;
 	background-color: rgba(214,214,214,1);}
 
-nav ul {
+nav > ul {
 	display: table-row;
 	height: 20px;
 	border: groove;}
@@ -57,11 +49,28 @@ nav ul li {
 	margin: 20px 5px;
 	padding: 0px 20px}
 	
+nav ul li a:link {
+	color: rgba(0,0,255,1);}
+	
+nav ul li a:active {
+	color: rgba(204,255,0,1);}
+
+nav ul li a:visited {
+	color: rgba(0,0,0,1);}
+	
 nav ul li:first-child {
 	text-align: right;}
 
 nav ul li:last-child {
 	text-align: left;}
+	
+	
+/*everything in column 1*/	
+#column1 {
+	float: left;
+	width: 588px;
+	padding: 2px;
+	margin: 7px;}
 	
 .jobdescription {
 	font-size:.75em;}
@@ -69,6 +78,7 @@ nav ul li:last-child {
 .jobdescription:hover {
 	font-style:italic;
 	font-size: 1em;}
+	
 	
 /*everything in column 2*/	
 #column2 {
